@@ -31,7 +31,7 @@ class _AddDataState extends State<AddData> {
               decoration: new InputDecoration(
                   hintText: "Kode Barang", labelText: "Kode barang"),
             ),
-            new RaisedButton(child: new Text("Add Data"),onPressed: (){}, color: Colors.blue,)
+            new RaisedButton(child: new Text("Tambah Data Baru"),onPressed: (){}, color: Colors.blue,)
           ],
         ),
       ),
