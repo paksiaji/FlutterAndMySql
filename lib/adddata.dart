@@ -18,7 +18,7 @@ class _AddDataState extends State<AddData> {
           children: <Widget>[
             new TextField(
               decoration: new InputDecoration(
-                  hintText: "Kode Barang", labelText: "Kode barang"),
+                  hintText: "id Barang", labelText: "Kode barang"),
             ),
             new TextField(
               decoration: new InputDecoration(
