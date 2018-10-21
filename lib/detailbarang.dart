@@ -40,7 +40,7 @@ class _DetailBarangState extends State<DetailBarang> {
                   new Column(
                     children: <Widget>[
                       new Padding(padding: EdgeInsets.only(top: 30.0),),
-                      new Text("Kode Barang : ${this.item_code}"),
+                      new Text("Id Barang : ${this.item_code}"),
                       new Text("Nama Barang : ${this.item_name}"),
                       new Text("Harga Barang : ${this.price}"),
                       new Text("Stock barang : ${this.stock}")
